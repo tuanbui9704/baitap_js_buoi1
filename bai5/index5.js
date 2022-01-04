@@ -6,4 +6,5 @@ function kq(params) {
   var c = parseInt(Number(a) / 10);
   var tong = b + c;
   //   console.log({ tong });
+  document.getElementById("tongKySo").innerText = "Tổng ký số " + tong;
 }
